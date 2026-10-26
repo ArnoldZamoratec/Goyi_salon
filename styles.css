@@ -451,3 +451,10 @@ address { font-style: normal; }
   .phones > div { grid-template-columns: 5.5rem 1fr; }
   .rail { grid-auto-columns: 72%; }
 }
+
+/* Redes en el pie de página */
+.footer .socials { grid-column: 1 / -1; }
+.socials--dark a { background: transparent; border-color: rgba(245, 238, 246, .2); }
+.socials--dark svg { fill: var(--mist); }
+.socials--dark a:hover { background: var(--peach); }
+.socials--dark a:hover svg { fill: var(--plum); }
